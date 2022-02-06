@@ -1,0 +1,20 @@
+<--TAGs semânticas -->
+
+<header> Cabeçalho </hader>
+<nav> Menu </nav>
+<main> Conteúdo principal do site </main> obs: só devemos utilizar uma <main> no site
+<section> Agrupamento de conteúdos relacionados </section>
+<article> Artigos, comentários, widget </article>
+<aside> Side bar </aside>
+<footer> rodapé </footer>
+
+
+
+<!-- Heading TAGs -->
+
+<h1> Subtítulo </h1>
+<h2> Subtítulo Nível 2 </h2>
+<h3> Subtítulo Nível 3 </h3>
+<h4> Subtítulo Nível 4 </h4>
+<h5> Subtítulo Nível 5 </h5>
+<h6> Subtítulo Nível 6 </h6>
