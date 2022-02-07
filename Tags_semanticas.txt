@@ -2,17 +2,17 @@
 
 <header> Cabeçalho </hader>
 <nav> Menu </nav>
-<main> Conteúdo principal do site </main> obs: só devemos utilizar uma <main> no site
+<main> Conteúdo principal do site DESTAQUE </main> obs: só devemos utilizar uma <main> no site
 <section> Agrupamento de conteúdos relacionados </section>
 <article> Artigos, comentários, widget </article>
-<aside> Side bar </aside>
+<aside> Side bar </aside> obs: Barras laterais
 <footer> rodapé </footer>
 
 
 
 <!-- Heading TAGs -->
 
-<h1> Subtítulo </h1>
+<h1> Subtítulo </h1> obs: Somente uma tag h1 dentro do documento e colocar sempre na main
 <h2> Subtítulo Nível 2 </h2>
 <h3> Subtítulo Nível 3 </h3>
 <h4> Subtítulo Nível 4 </h4>

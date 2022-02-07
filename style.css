@@ -1,8 +1,34 @@
 /*
     Folha de estilo do site one page HTML5 e CSS3
     @author Professor José de Assis
+    */
 
-Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+/*CSS Reset*/
+/*Importação Google Fontes*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+*{
+    margin:0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+/*Layout*/
+
+.Container{
+    margin: 0 auto;
+    background-color: #77ff00;
+}
+
+
+/*Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 
 /*Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -10,11 +36,19 @@ Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
     body{
         background-color:#0ff;
     }
+    /*Layout*/
+    .Container{
+        max-width: 540px;
+    }
 }
 /*Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width:768px){
     body{
         background-color: #ffff00;
+    }
+     /*Layout*/
+     .Container{
+        max-width: 720px;
     }
 }
 /*Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
@@ -22,12 +56,20 @@ Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
     body{
         background-color:#ff6600;
     }
+     /*Layout*/
+     .Container{
+        max-width: 960px;
+    }
 }
 /*PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 @media(min-width:1200px){
     Body{
         background-color: #F00;
+    }
+     /*Layout*/
+     .Container{
+        max-width: 1140px;
     }
 }
 
