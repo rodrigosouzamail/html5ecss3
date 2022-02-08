@@ -21,14 +21,14 @@ body {
 
 /* Layout */
 
-.Container{
+.Container {
     margin: 0 auto;
 }
 .Flex {
     display:flex;
     justify-content: space-between;
 }
-.Botao{
+.Botao {
     text-decoration: none;
     color: #fff;
     font-size: 1.3em;
@@ -41,7 +41,7 @@ body {
 
 /*topo do site*/
 
-#topo{
+#topo {
     position: fixed;
     right: 10px;
     bottom: 10px;
@@ -49,11 +49,11 @@ body {
 
 /*Smartphone Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 /*Cabeçalho*/
-header{
+header {
     height:60px ;
 }
 
-#logo img{
+#logo img {
     width: 128px;
     height: 128px;
 }
@@ -67,7 +67,7 @@ label {
     padding-right: 15px;
 }
 
-nav ul{
+nav ul {
     list-style: none;
     background-color: #343538;
     height: 100vh;
@@ -82,7 +82,7 @@ nav ul{
     right: 0;
 }
 
-nav ul li{
+nav ul li {
     padding: 20px;
     border-bottom: 1px solid #a9a9a9 ;
 }
@@ -102,67 +102,73 @@ main {
     text-align: center;
 }
 
-main h1{
+main h1 {
     font-size: 2.5em;
 }
 
-main h2{
+main h2 {
     font-size: 1em;
     margin: 20px 0px 50px 0px;
+}
+
+/* Sobre */
+
+#sobre {
+    padding: 50px 0px;
 }
 
 
 /*Smartphone Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 @media (min-width: 576px) {
     /*Layout*/
-    .Container{
+    .Container {
         max-width: 540px;
     }
     /* Destaque */
-    main h1, main h2{
+    main h1, main h2 {
         text-shadow: #000 0.05em 0.05em 0.05em;
     }
 }
 /*Tablet Portrait >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-@media (min-width:768px){
+@media (min-width:768px) {
    
      /*Layout*/
-     .Container{
+     .Container {
         max-width: 720px;
     }
     /* Destaque */
     main {
         height: 45vh;
     }
-    main h1{
+    main h1 {
         font-size: 5.5em;
     }
-    main h2{
+    main h2 {
         font-size: 2em;
     }
 }
 /*Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-@media(min-width:992px){
+@media(min-width:992px) {
     
      /*Layout*/
-     .Container{
+     .Container {
         max-width: 960px;
     }
     /* Detaque */
-    main{
+    main {
         height: 70vh;
     }
 }
 /*PC >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
-@media(min-width:1200px){
+@media(min-width:1200px) {
     
      /*Layout*/
      .Container {
         max-width: 1140px;
     }
     /*Cabeçalho*/
-    header{
+    header {
         height:120px ;
     }
     
@@ -175,20 +181,20 @@ main h2{
         display: none;
     }
 
-    nav ul{
+    nav ul {
         position: static;
         height: auto;
         background-color: transparent;
         margin-top: 50px;
     }
-    nav ul li{
+    nav ul li {
         float: left;
         border: 0;
     }
-    nav ul li a{
+    nav ul li a {
         color: #343538;
     }
-    nav ul li a:hover{
+    nav ul li a:hover {
         color:#C00000
     }
 }
